@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/mfe-pro/react-user-journey/compare/v1.0.0...v1.0.1) (2024-2-14)
+
+
+### Bug Fixes
+
+* fix ci/cd ([ecb304d](https://github.com/mfe-pro/react-user-journey/commit/ecb304d276646e596cb06cddf81b1c438c74ea7e))
+
 # 1.0.0 (2024-2-14)
 
 
