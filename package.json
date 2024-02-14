@@ -62,6 +62,10 @@
   ],
   "author": "Eliseu dos Santos da Silva",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
