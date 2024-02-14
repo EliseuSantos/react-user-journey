@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    library: '@mfe-pro/react-user-journey',
+    library: 'react-user-journey',
     libraryTarget: 'umd',
     umdNamedDefine: true,
     globalObject: 'this'

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {JourneyProvider, useJourney} from '@mfe-pro/react-user-journey';
+import {JourneyProvider, useJourney} from 'react-user-journey';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';

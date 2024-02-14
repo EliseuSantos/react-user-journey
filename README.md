@@ -1,31 +1,31 @@
-# @mfe-pro/react-user-journey 🚀
+# react-user-journey 🚀
 
 Elegantly crafted React library for seamless tracking of user journeys across your application. Tailored for developers aiming to enrich user experience analytics and refine user flows effortlessly.
 
 ## 🌟 Introduction
 
-`@mfe-pro/react-user-journey` simplifies the process of defining and monitoring pivotal steps within your users' journeys, offering vital insights into user behaviors and facilitating user experience enhancements with ease.
+`react-user-journey` simplifies the process of defining and monitoring pivotal steps within your users' journeys, offering vital insights into user behaviors and facilitating user experience enhancements with ease.
 
 ## 💾 Installation
 
 Incorporate this library into your project by running:
 
-- npm install @mfe-pro/react-user-journey
+- npm install react-user-journey
 
 or if you prefer yarn:
 
-- yarn add @mfe-pro/react-user-journey
+- yarn add react-user-journey
 
 ## 🛠 Usage
 
-Below is a quick guide on how to utilize `@mfe-pro/react-user-journey` in your application:
+Below is a quick guide on how to utilize `react-user-journey` in your application:
 
 **Wrap your application with `JourneyProvider`:**
 
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { JourneyProvider } from '@mfe-pro/react-user-journey';
+import { JourneyProvider } from 'react-user-journey';
 import App from './App';
 
 ReactDOM.render(
@@ -40,7 +40,7 @@ ReactDOM.render(
 
 ```jsx
 import React from 'react';
-import { useJourney } from '@mfe-pro/react-user-journey';
+import { useJourney } from 'react-user-journey';
 
 function ExampleComponent() {
   const { startJourney, completeStep } = useJourney();
@@ -79,4 +79,4 @@ Contributions are always welcome! Please read the contribution guide to learn ho
 
 ## 📄 License
 
-`@mfe-pro/react-user-journey` is licensed under the MIT License. See the LICENSE file for more details.
+`react-user-journey` is licensed under the MIT License. See the LICENSE file for more details.

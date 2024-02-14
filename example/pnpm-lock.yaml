@@ -11,9 +11,6 @@ dependencies:
   '@emotion/styled':
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.3)(@types/react@18.2.55)(react@18.2.0)
-  '@mfe-pro/react-user-journey':
-    specifier: file:../
-    version: file:..(react-dom@18.2.0)(react@18.2.0)
   '@mui/material':
     specifier: ^5.15.10
     version: 5.15.10(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)
@@ -23,6 +20,9 @@ dependencies:
   react-dom:
     specifier: ^18.0.0
     version: 18.2.0(react@18.2.0)
+  react-user-journey:
+    specifier: file:../
+    version: file:..(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@types/react':
@@ -10801,7 +10801,7 @@ packages:
   file:..(react-dom@18.2.0)(react@18.2.0):
     resolution: {directory: .., type: directory}
     id: file:..
-    name: '@mfe-pro/react-user-journey'
+    name: react-user-journey
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
