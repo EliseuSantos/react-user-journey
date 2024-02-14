@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.1.0](https://github.com/mfe-pro/react-user-journey/compare/v1.0.1...v1.1.0) (2024-2-14)
+
+
+### Features
+
+* improvements code ([0da1254](https://github.com/mfe-pro/react-user-journey/commit/0da125416e88014589f97966949edbb4c39f0f2e))
+
 ## [1.0.1](https://github.com/mfe-pro/react-user-journey/compare/v1.0.0...v1.0.1) (2024-2-14)
 
 
