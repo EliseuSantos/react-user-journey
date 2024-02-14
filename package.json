@@ -2,14 +2,14 @@
   "name": "react-user-journey",
   "version": "1.0.0",
   "description": "A library for tracking user journeys in React.",
-  "homepage": "https://github.com/mfe-pro/react-user-journey",
+  "homepage": "https://github.com/EliseuSantos/react-user-journey",
   "bugs": {
-    "url": "https://github.com/mfe-pro/react-user-journey/issues"
+    "url": "https://github.com/EliseuSantos/react-user-journey/issues"
   },
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mfe-pro/react-user-journey.git"
+    "url": "git+https://github.com/EliseuSantos/react-user-journey.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
