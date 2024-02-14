@@ -54,7 +54,7 @@ jobs:
         run: pnpm build
 
       - name: Run Semantic Release
-        run: pnpm publish
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release --no-ci
