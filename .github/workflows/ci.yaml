@@ -1,4 +1,4 @@
-name: CI
+name: CI/CD
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  build:
+  BuildAndDeploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -47,3 +47,5 @@ jobs:
 
       - name: Run Semantic Release
         run: npx semantic-release
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
