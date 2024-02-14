@@ -46,6 +46,6 @@ jobs:
         run: pnpm test
 
       - name: Run Semantic Release
-        run: npx semantic-release
+        run: pnpm publish
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
