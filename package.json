@@ -1,15 +1,14 @@
 {
   "name": "@mfe-pro/react-user-journey",
   "version": "1.0.0",
-  "description": "Uma biblioteca para rastreamento de jornadas do usuário em React.",
+  "description": "A library for tracking user journeys in React.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "commit": "cz",
     "build": "webpack --mode production",
     "watch": "webpack --mode development --watch",
-    "test": "jest",
-    "prepare": "husky"
+    "test": "jest"
   },
   "packageManager": "pnpm@8.15.0",
   "peerDependencies": {
@@ -43,7 +42,7 @@
     "tracking",
     "library"
   ],
-  "author": "Seu Nome",
+  "author": "Eliseu dos Santos da Silva",
   "license": "MIT",
   "config": {
     "commitizen": {
