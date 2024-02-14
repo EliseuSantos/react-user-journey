@@ -1,5 +1,5 @@
 {
-  "name": "@mfe-pro/react-user-journey",
+  "name": "react-user-journey",
   "version": "1.0.0",
   "description": "A library for tracking user journeys in React.",
   "homepage": "https://github.com/mfe-pro/react-user-journey",
