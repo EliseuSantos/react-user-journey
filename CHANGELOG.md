@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/EliseuSantos/react-user-journey/compare/v1.0.0...v1.0.1) (2024-2-14)
+
+
+### Bug Fixes
+
+* fix name package ([11326bf](https://github.com/EliseuSantos/react-user-journey/commit/11326bf25f5cb70a90cc9cf85a53b9f0269efc06))
+
 <<<<<<< HEAD
 # 1.0.0 (2024-2-14)
 
