@@ -16,7 +16,7 @@
     "commit": "cz",
     "build": "webpack --mode production",
     "watch": "webpack --mode development --watch",
-    "test": "jest --maxWorkers=2",
+    "test": "jest",
     "test:watch": "pnpm test --watch",
     "test:coverage": "jest --coverage --colors --maxWorkers=2",
     "publish": "npx semantic-release --no-ci"
